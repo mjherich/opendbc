@@ -35,17 +35,11 @@ BS_:
 
 BU_: XXX
 
-
-BO_ 304 undefined: 8 XXX
- SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
-
 BO_ 241 BRAKING: 8 NEW_TRANSMITTER_1
  SG_ Pressure : 15|8@0+ (1,0) [0|255] "" XXX
  SG_ Bool : 1|1@1+ (1,0) [0|1] "" XXX
 
+ BO_ 368 EBCMFrictionBrakeStatus: 8 K17_EBCM
+  SG_ FrictionBrakePressure : 23|16@0+ (1,0) [0|0] ""  XXX
 
-
-
-
-
+  
